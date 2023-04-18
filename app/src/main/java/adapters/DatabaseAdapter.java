@@ -82,4 +82,5 @@ public class DatabaseAdapter {
     public List<Recipe> getAllRecipesByCategory(String category) {
         return recipeDAO.selectAllByCategory(category);
     }
+    System.out.println("Hello");
 }
